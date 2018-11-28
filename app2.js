@@ -72,10 +72,10 @@ app.init = function() {
 				app.getAlbums(artists);
             });
             
-            var clientId = '7f7d8a472a82495cb135227ad7a595a1';
-            var clientSecret = '23aba3d8f521463998673ac3ffbcb01c';
-            var moodSelect = $("#channel-input").val().toLowerCase();
-            var queryURL = 'https://api.spotify.com/v1/search?type=playlist&q=' + moodSelect + '&access_token=BQC2FS3HzkXjfzlWIunPeP00WkMxJujnhymqRL0RfQYvjNFaqEDQjJe8yoJzqLvcNYj9xULBH-NGupWZam1xF3NOA6F8M0KrUS91VpOMEvnM8d1QLDA1o6Y6zlcAMi7-44JgtGQ7djp-wUzzldbyWPKQ';
+            var clientId = '1182c78c1d1640bdb11753b2a466f09b';
+            var clientSecret = 'cb0c0bcae4fb45dead4532baaa701f27';
+            var moodSelect = $("input[type=search]").val().toLowerCase();
+            var queryURL = 'https://api.spotify.com/v1/search?type=playlist&q=' + moodSelect + '&access_token=BQCOmU42Pmg2PxeaA_moQ5Wc5XPN_lKCH0kY_SQHtoNyzkFTxxZ3ml4BnMYT72hTuaS02jOdXyeCPn0RDSBguldtHZa8VvWt5iohIlV-5xjVICaejn0AyP-yHisyeN8C4msP7QGdz-k2ojghin5mrvUoNg';
         
             
             
