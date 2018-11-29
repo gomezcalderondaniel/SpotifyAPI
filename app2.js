@@ -75,7 +75,7 @@ app.init = function() {
             var clientId = '1182c78c1d1640bdb11753b2a466f09b';
             var clientSecret = 'cb0c0bcae4fb45dead4532baaa701f27';
             var moodSelect = $("input[type=search]").val().toLowerCase();
-            var queryURL = 'https://api.spotify.com/v1/search?type=playlist&q=' + moodSelect + '&access_token=BQCOmU42Pmg2PxeaA_moQ5Wc5XPN_lKCH0kY_SQHtoNyzkFTxxZ3ml4BnMYT72hTuaS02jOdXyeCPn0RDSBguldtHZa8VvWt5iohIlV-5xjVICaejn0AyP-yHisyeN8C4msP7QGdz-k2ojghin5mrvUoNg';
+            var queryURL = 'https://api.spotify.com/v1/search?type=playlist&q=' + moodSelect + '&access_token=BQASm5WP_5Hb9umlpgRk5FKPgi7msmFSqGLM4b8x94tlupAnp4ricYMLSkCxFosH9Bmr8Lm-BPXNl41s9QVIZI5GKpioeA2rLHDKx7RmBlOTWhqiOW1dA0rkaGHl3TS42eRrUVBR43ykPA5eZ9IobgeokQ';
         
             
             
