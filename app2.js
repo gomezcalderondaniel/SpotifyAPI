@@ -77,7 +77,7 @@ app.init = function() {
             });
             
             var clientId = '1182c78c1d1640bdb11753b2a466f09b';
-            var clientSecret = 'cb0c0bcae4fb45dead4532baaa701f27';
+            var clientSecret = '0f902fbad3ed4cacbf15cc4d9697964c';
             var moodSelect = $("input[type=search]").val().toLowerCase();
             var token = 'BQDMWbsGwsQWKGt-0nLdAu9wSpfHlg0bNKZvbD2jhkchrt2ZwT3-tONbGpKXkDtEUDsY6Iq-KNPUbe6-E3VvcVu05XEd6C-_I5SA7Q3c8qwJydoqSo8P7FNSMVMObDSZdC1GxJ4K_qwaxBDA5IgyA1j7Sw';
             var queryURL = 'https://api.spotify.com/v1/search?type=playlist&q=' + moodSelect + '&access_token=' + token;       
